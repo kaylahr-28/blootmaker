@@ -1,0 +1,244 @@
+html {
+    background-color: #6883BA;
+}
+
+.schoolbell-regular {
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    color: #F9F9F9;
+}
+
+
+button,
+label,
+select,
+p,
+span,
+input {
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+#customizepage,
+#completepage {
+    display: none;
+}
+
+#homepage,
+#customizepage,
+#completepage {
+    width: 800px;
+    justify-self: center;
+}
+
+#homepage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#homepage h1,
+#customizepage h1,
+#homepage h2,
+#meetbloot,
+#aboutpage h1 {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#homepage h1,
+#aboutpage h1 {
+    font-size: 80px;
+    margin-bottom: 0em;
+}
+
+#meetbloot {
+    font-size: 60px;
+    padding-top: .7em;
+}
+
+#playaudio {
+    margin-bottom: 3em;
+    background-color: #3D3B8E;
+
+}
+
+#customizepage h1 {
+    font-size: 60px;
+    margin: .4em auto;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px #000;
+}
+
+#customizepage,
+#completepage {
+    height: 650px;
+    outline: 5px dashed #3D3B8E;
+}
+
+#customizepage {
+    flex-direction: column;
+    padding: 1em;
+}
+
+#customizepage,
+#completepage,
+#finalbloot {
+    background-color: #E072A4;
+}
+
+#startbutton {
+    display: block;
+    margin: 0 auto;
+}
+
+#blootframe {
+    float: left;
+}
+
+#blootframe,
+#finalbloot {
+    display: grid;
+    grid-template-areas: "frame";
+    grid-template-columns: 400px;
+    grid-template-rows: 400px;
+    background-color: #92DCE5;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    outline: 5px solid #6883BA;
+
+}
+
+#customizeoptions {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 1em;
+}
+
+.optiondiv,
+#savebutton {
+    margin: 1em;
+}
+
+.accessories {
+    position: absolute;
+    grid-area: frame;
+}
+
+#firstoption {
+    margin-top: 0em;
+}
+
+button {
+    background-color: #B0E298;
+    border-radius: 5px;
+}
+
+#randomdiv p {
+    display: inline;
+}
+
+#nameoption {
+    margin-bottom: .5em;
+}
+
+label,
+#nameoption {
+    margin-right: .5em;
+}
+
+#completepage button {
+    margin: .5em auto;
+    display: block;
+}
+
+#previousbloots {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#previousbloots div img {
+    width: 101px;
+}
+
+#previousbloots .accessories {
+    transform: translateY(-105px);
+}
+
+#displayname {
+    display: none;
+    margin: 0;
+    transform: translateY(-0px);
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+}
+
+#previousbloots div:hover #displayname {
+    display: block;
+}
+
+
+#previousbloots div {
+    width: 100px;
+    height: 100px;
+    margin-top: 2em;
+}
+
+#aboutpage h3 {
+    font-size: 35px;
+    margin-bottom: 0em;
+}
+
+#aboutpage p {
+    background-color: #3D3B8E;
+    color: #B0E298;
+    padding: 1em;
+    font-family: Georgia, serif;
+}
+
+#aboutpage {
+    max-width: 1400px;
+    margin: 1em auto;
+    padding: 0 1em;
+}
+
+a {
+    color: #B0E298;
+}
+
+a:visited {
+    color: #E072A4;
+}
+
+a:hover {
+    color: #F9F9F9;
+}
+
+#aboutpage img {
+    margin: .5em auto;
+    display: block;
+
+}

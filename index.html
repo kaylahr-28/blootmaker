@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloot Maker</title>
+    <script src="script/script.js"></script>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&family=Spicy+Rice&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button onclick="audioClicked()" id="playaudio">play/pause bgm</button>
+
+    <div id="homepage">
+        <h1>Bloot Maker</h1>
+        <h2>Create your very own Bloot!</h2>
+        <button onclick="btnClicked()" id="startbutton">Start</button>
+        <div id="previousbloots"></div>
+    </div>
+
+    <div id="customizepage">
+        <h1>Customize Your Bloot!</h1>
+        <div id="blootframe">
+        </div>
+
+        <div id="customizeoptions">
+            <div id="firstoption" class="optiondiv">
+                <label for="coloroption">Body</label>
+                <input type="color" id="coloroption" value="#92DCE5">
+            </div>
+            <div class="optiondiv">
+                <label for="charmselect">Charm</label>
+                <select id="charmselect">
+                    <option id="charmoption" value="star">Star</option>
+                    <option value="heart">Heart</option>
+                    <option value="moon"> Moon</option>
+                    <option value="explosion">Explosion</option>
+                    <option value="clover">Clover</option>
+                </select>
+            </div>
+            <div class="optiondiv">
+                <label for="eyeselect">Eyes</label>
+                <select id="eyeselect">
+                    <option id="eyeoption" value="open">Open</option>
+                    <option value="angry">Angry</option>
+                    <option value="sad"> Sad</option>
+                    <option value="closed">Closed</option>
+                    <option value="shiny">Shiny</option>
+                </select>
+            </div>
+            <div class="optiondiv">
+                <label for="mouthselect">Mouth</label>
+                <select id="mouthselect">
+                    <option id="mouthoption" value="opendown">Open (down)</option>
+                    <option value="openup">Open (up)</option>
+                    <option value="shocked"> Shocked</option>
+                    <option value="smile">Smile</option>
+                    <option value="frown">Frown</option>
+                </select>
+            </div>
+            <div class="optiondiv">
+                <label for="armselect">Arms</label>
+                <select id="armselect">
+                    <option id="armoption" value="down">Down</option>
+                    <option value="up">Up</option>
+                    <option value="pointup"> Point up</option>
+                    <option value="hips">Hips</option>
+                    <option value="updown">Up-down</option>
+                </select>
+            </div>
+            <div class="optiondiv">
+                <label for="nameoption">Name</label>
+                <input id="nameoption" size="15" value=""><span>Bloot</span>
+                <div id="randomdiv"><button onclick="randomClicked()">Randomize</button>
+                    <p>or type in your own!</p>
+                </div>
+            </div>
+            <button id="savebutton" onclick="btnClicked()">Save</button>
+
+        </div>
+
+    </div>
+
+    <div id="completepage">
+        <h2 id="meetbloot">Meet ____ Bloot!</h2>
+        <div id="finalbloot">
+
+        </div>
+        <button onclick="btnClicked()">Back to Home</button>
+    </div>
+</body>
+
+</html>

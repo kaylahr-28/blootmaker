@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 - Proposal</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&family=Spicy+Rice&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body id="aboutpage">
+    <h1>Bloot Maker</h1>
+    <p>Meet Bloot, a raindrop-shaped creature with a charm attached to its stem. Use this application to customize your
+        very own Bloot!</p>
+
+    <h3> Genre</h3>
+    <p>This experience is focused on avatar creation. </p>
+
+    <h3>Platform</h3>
+    <p>Desktop web</p>
+
+    <h3>Story</h3>
+    <p>There is no deep narrative to this experience, just a fun avatar creator!</p>
+
+    <h3>Aesthetics</h3>
+    <p>This experience is meant to be cute and lighthearted. I plan to make my own assets for Bloot and its customizable
+        options, and if I have time
+        then for arrows, background decoration and other controls.</p>
+
+    <h3>Gameplay</h3>
+    <p>There will be options for changing Bloot's body color, charm, eye shape, mouth shape, and arm shape. Each
+        category has predetermined options based on the assets I draw. (If I can find a way to allow user to choose a
+        specific hex code for color, I'll do that instead) There will be select options for the user to choose from for
+        each category. Bloot can be given a name via user input or randomized adjective. Once Bloot is saved, it will
+        be shown again on screen with a button to go back to home page, in which previously saved Bloots will now
+        appear.
+    </p>
+
+    <h3>Mockup</h3>
+    <img width="1200px" src="media/p3mockup.jpg" alt="project 3 mockup">
+
+    <h3>Other</h3>
+    <p>I used a w3schools.com tutorial for the color picker. <a
+            href="https://www.w3schools.com/howto/howto_html_colorpicker.asp">https://www.w3schools.com/howto/howto_html_colorpicker.asp</a>
+    </p>
+
+    <h3>Documentation</h3>
+    <p>I started planning this project with a mockup sketch. I created three divs to represent the three "pages" of the
+        application. First, I coded the buttons and associated Javascript to allow the user to navigate through the
+        pages. Next, I added the select options for each category to a flexbox in the customization page and set their
+        respective values. I then made the assets for Bloot and added them to my media folder. I also created a Bloot
+        class that receives parameters for the same features as the select option catergories. I coded more Javascript
+        so that whenever a select option value was changed, the current Bloot instance's values would also be updated
+        and displayed accordingly. I also began adding a color scheme and testing out different fonts to use for the
+        application. </p>
+
+    <p>I made a div on the complete page to show the final version of Bloot, along with its name. I then moved on to the
+        more difficult feature of displaying previous Bloots on the home page once the user returns there from the
+        complete page. I started off with getting just one to work, creating multiple methods in the Bloot class that
+        would allow for the values of the current Bloot's parameters to be displayed like they are on the complete page.
+        After getting one Bloot to display on the home page, I adjusted the methods so that they received div
+        parameters. This allowed for me to create and add multiple divs, each one of a previously created Bloot, to the
+        larger div that holds all previous Bloots. After getting that to work, I then added the name property for each
+        Bloot and made it display on hover. Finally, I added some sound effects on the start/save/back to home buttons,
+        as well as a button to toggle background music, which is displayed regardless of what page the user is on.</p>
+
+    <p>I have met and expectations by taking care for the design and interaction of this application. Not only does the
+        design reflect the intended aesthetics of the application, it also provides the user with a very
+        straight-forward experience so that anyone can follow along without help. My use of an original character with
+        distinguishible features helps enhance the creativity of my application. The background sounds allow the user to
+        be immersed in the experience. I think I also went beyond expectations by including a feature to display all
+        previously made characters on the home page. Users can enjoy watching their collection of characters grow as
+        they continue using their creativity to design more of them.</p>
+
+    <h3>About me</h3>
+    <p>I'm Kaylah Rouzier, a 2nd year New Media Interactive Development Major and Women and Gender Studies Minor. My
+        skills include HTML, CSS, JavaScript, and C#. I like crocheting, dancing, and eating good food.</p>
+
+</body>
+
+</html>
